@@ -28,4 +28,5 @@ repo_vars:
   - CI_AUTH='user:password'
   - CI_WEBPATH=''
 sponsor_links:
-  - { name: "Overseerr", url: "https://patreon.com/overseerr" }
+  - { name: "Overseerr Github Sponsors", url: "https://github.com/sponsors/sct" }
+  - { name: "Overseerr Patreon", url: "https://patreon.com/overseerr" }
