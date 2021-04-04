@@ -34,7 +34,7 @@ RUN \
 	/tmp/overseerr.tar.gz -C \
 	/app/overseerr/ --strip-components=1 && \
  cd /app/overseerr && \
- NODE_OPTIONS=--max_old_space_size=4096 && \
+ NODE_OPTIONS=--max_old_space_size=1024 && \
  export NODE_OPTIONS && \
  yarn --frozen-lockfile --network-timeout 1000000 && \
  yarn build && \
