@@ -34,9 +34,10 @@ RUN \
 	/tmp/overseerr.tar.gz -C \
 	/app/overseerr/ --strip-components=1 && \
  cd /app/overseerr && \
- yarn --frozen-lockfile && \
+ yarn --frozen-lockfile --network-timeout 1000000 && \
  yarn build && \
  yarn install --production --ignore-scripts --prefer-offline && \
+ yarn cache clean && \
  echo "{\"commitTag\": \"${OVERSEERR_VERSION}\"}" > committag.json && \
  rm -rf /app/overseerr/config && \
  ln -s /config /app/overseerr/config && \
