@@ -9,6 +9,7 @@ LABEL maintainer="nemchik"
 
 # set environment variables
 ENV HOME="/config"
+ENV COMMIT_TAG="${OVERSEERR_VERSION}"
 
 RUN \
  echo "**** install build packages ****" && \
