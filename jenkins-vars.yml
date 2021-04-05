@@ -1,0 +1,32 @@
+---
+
+# jenkins variables
+project_name: docker-overseerr
+external_type: github_stable
+release_type: stable
+release_tag: latest
+ls_branch: main
+repo_vars:
+  - EXT_GIT_BRANCH = 'develop'
+  - EXT_USER = 'sct'
+  - EXT_REPO = 'overseerr'
+  - BUILD_VERSION_ARG = 'OVERSEERR_VERSION'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-overseerr'
+  - CONTAINER_NAME = 'overseerr'
+  - DOCKERHUB_IMAGE = 'linuxserver/overseerr'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/overseerr'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/overseerr'
+  - DIST_IMAGE = 'alpine'
+  - MULTIARCH='true'
+  - CI='true'
+  - CI_WEB='true'
+  - CI_PORT='5055'
+  - CI_SSL='false'
+  - CI_DELAY='300'
+  - CI_DOCKERENV='TZ=US/Pacific'
+  - CI_AUTH='user:password'
+  - CI_WEBPATH=''
+sponsor_links:
+  - { name: "Overseerr Github Sponsors", url: "https://github.com/sponsors/sct" }
+  - { name: "Overseerr Patreon", url: "https://patreon.com/overseerr" }
