@@ -31,7 +31,7 @@ param_env_vars:
 
 param_usage_include_ports: true
 param_ports:
-  - { external_port: "5055", internal_port: "5000", port_desc: "Port for Overseerr's web interface." }
+  - { external_port: "5055", internal_port: "5055", port_desc: "Port for Overseerr's web interface." }
 
 param_usage_include_vols: true
 param_volumes:

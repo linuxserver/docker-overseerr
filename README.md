@@ -80,7 +80,7 @@ services:
     volumes:
       - /path/to/appdata/config:/config
     ports:
-      - 5055:5000
+      - 5055:5055
     restart: unless-stopped
 ```
 
@@ -92,7 +92,7 @@ docker run -d \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=America/New_York \
-  -p 5055:5000 \
+  -p 5055:5055 \
   -v /path/to/appdata/config:/config \
   --restart unless-stopped \
   ghcr.io/linuxserver/overseerr
@@ -105,7 +105,7 @@ Container images are configured using parameters passed at runtime (such as thos
 
 | Parameter | Function |
 | :----: | --- |
-| `-p 5000` | Port for Overseerr's web interface. |
+| `-p 5055` | Port for Overseerr's web interface. |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=America/New_York` | Specify a timezone to use EG America/New_York |
