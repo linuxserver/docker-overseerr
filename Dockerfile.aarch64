@@ -23,8 +23,8 @@ RUN \
  apk add --no-cache \
 	yarn && \
  if [ -z ${OVERSEERR_VERSION+x} ]; then \
-	OVERSEERR_VERSION=$(curl -sX GET "https://api.github.com/repos/sct/overseerr/releases/latest" \
-	| awk '/tag_name/{print $4;exit}' FS='[""]'); \
+	OVERSEERR_VERSION=$(curl -sX GET "https://api.github.com/repos/sct/overseerr/commits/develop" \
+	| awk '/sha/{print $4;exit}' FS='[""]'); \
  fi && \
  export COMMIT_TAG="${OVERSEERR_VERSION}" && \
  curl -o \
