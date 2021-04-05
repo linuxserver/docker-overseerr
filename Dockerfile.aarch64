@@ -9,7 +9,6 @@ LABEL maintainer="nemchik"
 
 # set environment variables
 ENV HOME="/config"
-ENV COMMIT_TAG="${OVERSEERR_VERSION}"
 
 RUN \
  echo "**** install build packages ****" && \
@@ -27,9 +26,7 @@ RUN \
 	OVERSEERR_VERSION=$(curl -sX GET "https://api.github.com/repos/sct/overseerr/releases/latest" \
 	| awk '/tag_name/{print $4;exit}' FS='[""]'); \
  fi && \
- if [ -z ${COMMIT_TAG+x} ]; then \
-	COMMIT_TAG="${OVERSEERR_VERSION}"; \
- fi && \
+ export COMMIT_TAG="${OVERSEERR_VERSION}" && \
  curl -o \
 	/tmp/overseerr.tar.gz -L \
 	"https://github.com/sct/overseerr/archive/${OVERSEERR_VERSION}.tar.gz" && \
@@ -44,7 +41,7 @@ RUN \
  yarn build && \
  yarn install --production --ignore-scripts --prefer-offline && \
  yarn cache clean && \
- echo "{\"commitTag\": \"${OVERSEERR_VERSION}\"}" > committag.json && \
+ echo "{\"commitTag\": \"${COMMIT_TAG}\"}" > committag.json && \
  rm -rf /app/overseerr/config && \
  ln -s /config /app/overseerr/config && \
  echo "**** cleanup ****" && \
