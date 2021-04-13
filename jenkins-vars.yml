@@ -2,15 +2,13 @@
 
 # jenkins variables
 project_name: docker-overseerr
-external_type: github_commit
+external_type: na
+custom_version_command: "curl -sX GET https://api.github.com/repos/sct/overseerr/commits?sha=develop | jq -r 'first(.[] | select(.commit.message | contains(\"[skip ci]\") | not)) | .sha'"
 release_type: prerelease
 release_tag: develop
 ls_branch: develop
 external_trigger_delay_hours: 6
 repo_vars:
-  - EXT_GIT_BRANCH = 'develop'
-  - EXT_USER = 'sct'
-  - EXT_REPO = 'overseerr'
   - BUILD_VERSION_ARG = 'OVERSEERR_VERSION'
   - LS_USER = 'linuxserver'
   - LS_REPO = 'docker-overseerr'
