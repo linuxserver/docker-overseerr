@@ -18,7 +18,7 @@ jobs:
           fi
           echo "**** External trigger running off of develop branch. To disable this trigger, set a Github secret named \"PAUSE_EXTERNAL_TRIGGER_OVERSEERR_DEVELOP\". ****"
           echo "**** Retrieving external version ****"
-          EXT_RELEASE=$(curl -u "${{ secrets.CR_USER }}:${{ secrets.CR_PAT }}" -sX GET "https://api.github.com/repos/sct/overseerr/commits/develop" | jq -r '. | .sha' | cut -c1-8)
+          EXT_RELEASE=$(curl -sX GET https://api.github.com/repos/sct/overseerr/commits?sha=develop | jq -r 'first(.[] | select(.commit.message | contains("[skip ci]") | not)) | .sha')
           if [ -z "${EXT_RELEASE}" ] || [ "${EXT_RELEASE}" == "null" ]; then
             echo "**** Can't retrieve external version, exiting ****"
             FAILURE_REASON="Can't retrieve external version for overseerr branch develop"
