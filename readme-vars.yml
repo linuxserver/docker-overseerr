@@ -5,7 +5,7 @@ project_name: overseerr
 project_url: "https://overseerr.dev/"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/overseerr.png"
 project_blurb: |
-  [{{ project_name|capitalize }}]({{ project_url }}) is a free and open source software application for managing requests for your media library.
+  [{{ project_name|capitalize }}]({{ project_url }}) is a request management and media discovery tool built to work with your existing Plex ecosystem.
 
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
 
