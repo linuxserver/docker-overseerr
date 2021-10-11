@@ -40,9 +40,13 @@ RUN \
   yarn build && \
   yarn install --production --ignore-scripts --prefer-offline && \
   yarn cache clean && \
+  rm -rf \
+    /app/overseerr/src \
+    /app/overseerr/server && \
   echo "{\"commitTag\": \"${COMMIT_TAG}\"}" > committag.json && \
   rm -rf /app/overseerr/config && \
   ln -s /config /app/overseerr/config && \
+  touch /config/DOCKER && \
   echo "**** cleanup ****" && \
   apk del --purge \
     build-dependencies && \

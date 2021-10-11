@@ -47,5 +47,6 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "10.10.21:", desc: "Add additional post-build cleanup." }
   - { date: "19.09.21:", desc: "Rebase to alpine 3.14. Update code formatting. Increase js mem limit." }
   - { date: "05.04.21:", desc: "Initial Release." }
