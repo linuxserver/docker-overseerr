@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-alpine:3.14
+FROM ghcr.io/linuxserver/baseimage-alpine:3.15
 
 # set version label
 ARG BUILD_DATE
@@ -52,7 +52,8 @@ RUN \
     build-dependencies && \
   rm -rf \
     /root/.cache \
-    /tmp/*
+    /tmp/* \
+    /app/overseerr/.next/cache
 
 # copy local files
 COPY root/ /
