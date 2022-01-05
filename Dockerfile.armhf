@@ -52,7 +52,8 @@ RUN \
     build-dependencies && \
   rm -rf \
     /root/.cache \
-    /tmp/*
+    /tmp/* \
+    /app/overseerr/.next/cache/*
 
 # copy local files
 COPY root/ /
