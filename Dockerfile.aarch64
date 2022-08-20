@@ -37,7 +37,7 @@ RUN \
     /app/overseerr/ --strip-components=1 && \
   cd /app/overseerr && \
   export NODE_OPTIONS=--max_old_space_size=2048 && \
-  yarn --frozen-lockfile --network-timeout 1000000 && \
+  CYPRESS_INSTALL_BINARY=0 yarn --frozen-lockfile --network-timeout 1000000 && \
   yarn build && \
   yarn install --production --ignore-scripts --prefer-offline && \
   yarn cache clean && \
