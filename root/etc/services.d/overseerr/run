@@ -1,8 +1,0 @@
-#!/usr/bin/with-contenv bash
-
-cd /app/overseerr || exit
-
-export CONFIG_DIRECTORY="/config"
-
-exec \
-	s6-setuidgid abc /usr/bin/yarn start
