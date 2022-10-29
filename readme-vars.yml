@@ -47,6 +47,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "27.10.22:", desc: "Rebase develop to 3.16, migrate to s6v3." }
   - { date: "20.08.22:", desc: "Trigger hourly, don't install cypress." }
   - { date: "27.01.22:", desc: "Rebase Develop branch to Alpine 3.15." }
   - { date: "04.01.22:", desc: "Remove cached files." }

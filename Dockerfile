@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-alpine:3.15
+FROM ghcr.io/linuxserver/baseimage-alpine:3.16
 
 # set version label
 ARG BUILD_DATE
@@ -13,9 +13,7 @@ ENV HOME="/config"
 RUN \
   echo "**** install build packages ****" && \
   apk add --no-cache --virtual=build-dependencies \
-    curl \
     g++ \
-    jq \
     make \
     python3 && \
   echo "**** symlink python3 for compatibility ****" && \
@@ -61,4 +59,5 @@ COPY root/ /
 
 # ports and volumes
 EXPOSE 5055
+
 VOLUME /config
