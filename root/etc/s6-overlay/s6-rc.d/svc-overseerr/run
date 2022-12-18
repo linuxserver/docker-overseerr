@@ -1,7 +1,8 @@
 #!/usr/bin/with-contenv bash
+# shellcheck shell=bash
 
 export CONFIG_DIRECTORY="/config"
 
 exec \
     s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost 5055" \
-        cd /app/overseerr s6-setuidgid abc /usr/bin/yarn start
+    cd /app/overseerr s6-setuidgid abc /usr/bin/yarn start
