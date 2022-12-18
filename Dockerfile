@@ -1,3 +1,5 @@
+# syntax=docker/dockerfile:1
+
 FROM ghcr.io/linuxserver/baseimage-alpine:3.16
 
 # set version label
@@ -13,11 +15,8 @@ ENV HOME="/config"
 RUN \
   echo "**** install build packages ****" && \
   apk add --no-cache --virtual=build-dependencies \
-    g++ \
-    make \
+    build-base \
     python3 && \
-  echo "**** symlink python3 for compatibility ****" && \
-  ln -s /usr/bin/python3 /usr/bin/python && \
   echo "**** install runtime packages ****" && \
   apk add --no-cache \
     yarn && \
