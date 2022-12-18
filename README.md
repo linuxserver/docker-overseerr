@@ -230,6 +230,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **18.12.22:** - Rebase develop to 3.17.
 * **27.10.22:** - Rebase develop to 3.16, migrate to s6v3.
 * **20.08.22:** - Trigger hourly, don't install cypress.
 * **27.01.22:** - Rebase Develop branch to Alpine 3.15.
