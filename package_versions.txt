@@ -685,7 +685,7 @@ libattr                                                                        2
 libbase64                                                                      1.2.1                  npm     
 libbsd                                                                         0.11.7-r0              apk     
 libc-utils                                                                     0.7.2-r3               apk     
-libcrypto3                                                                     3.0.8-r0               apk     
+libcrypto3                                                                     3.0.8-r1               apk     
 libcurl                                                                        7.88.1-r1              apk     
 libgcc                                                                         12.2.1_git20220924-r4  apk     
 libintl                                                                        0.21.1-r1              apk     
@@ -693,7 +693,7 @@ libmd                                                                          1
 libmime                                                                        5.2.0                  npm     
 libproc                                                                        3.3.17-r2              apk     
 libqp                                                                          2.0.1                  npm     
-libssl3                                                                        3.0.8-r0               apk     
+libssl3                                                                        3.0.8-r1               apk     
 libstdc++                                                                      12.2.1_git20220924-r4  apk     
 line-height                                                                    0.3.1                  npm     
 lines-and-columns                                                              1.2.4                  npm     
@@ -1038,7 +1038,7 @@ type-is                                                                        1
 typedarray                                                                     0.0.6                  npm     
 typeorm                                                                        0.3.12                 npm     
 typescript                                                                     4.9.5                  npm     
-tzdata                                                                         2022f-r1               apk     
+tzdata                                                                         2023b-r1               apk     
 uc.micro                                                                       1.0.6                  npm     
 uid-safe                                                                       2.1.5                  npm     
 underscore                                                                     1.13.6                 npm     
