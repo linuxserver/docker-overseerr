@@ -883,7 +883,6 @@ pug-parser                                                                     6
 pug-runtime                                                                    3.0.1                  npm     
 pug-strip-comments                                                             2.0.0                  npm     
 pug-walk                                                                       2.0.0                  npm     
-pulltorefreshjs                                                                0.1.22                 npm     
 punycode                                                                       2.1.1                  npm     
 qs                                                                             6.11.0                 npm     
 qs                                                                             6.5.3                  npm     
