@@ -795,7 +795,7 @@ netcat-openbsd                                                                 1
 next                                                                           12.3.4                 npm     
 nghttp2-libs                                                                   1.51.0-r0              apk     
 nice-try                                                                       1.0.5                  npm     
-node                                                                           18.14.2                binary  
+node                                                                           18.16.0                binary  
 node-addon-api                                                                 4.3.0                  npm     
 node-addon-api                                                                 5.0.0                  npm     
 node-cache                                                                     5.1.2                  npm     
@@ -804,7 +804,7 @@ node-gyp                                                                       8
 node-gyp                                                                       9.3.1                  npm     
 node-releases                                                                  2.0.8                  npm     
 node-schedule                                                                  2.1.0                  npm     
-nodejs                                                                         18.14.2-r0             apk     
+nodejs                                                                         18.16.0-r0             apk     
 nodemailer                                                                     6.8.0                  npm     
 nopt                                                                           5.0.0                  npm     
 nopt                                                                           6.0.0                  npm     
