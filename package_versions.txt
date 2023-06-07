@@ -413,9 +413,9 @@ buffer                                                                         6
 buffer-equal-constant-time                                                     1.0.1                   npm     
 buffer-from                                                                    1.1.2                   npm     
 busboy                                                                         1.6.0                   npm     
-busybox                                                                        1.36.0                  binary  
-busybox                                                                        1.36.0-r9               apk     
-busybox-binsh                                                                  1.36.0-r9               apk     
+busybox                                                                        1.36.1                  binary  
+busybox                                                                        1.36.1-r0               apk     
+busybox-binsh                                                                  1.36.1-r0               apk     
 bytes                                                                          3.1.2                   npm     
 c-ares                                                                         1.19.1-r0               apk     
 ca-certificates                                                                20230506-r0             apk     
@@ -494,7 +494,7 @@ csso                                                                           4
 csstype                                                                        2.6.21                  npm     
 csstype                                                                        3.1.1                   npm     
 csurf                                                                          1.11.0                  npm     
-curl                                                                           8.1.1-r1                apk     
+curl                                                                           8.1.2-r0                apk     
 dashdash                                                                       1.14.1                  npm     
 date-fns                                                                       2.29.3                  npm     
 dayjs                                                                          1.11.7                  npm     
@@ -681,8 +681,8 @@ libattr                                                                        2
 libbase64                                                                      1.2.1                   npm     
 libbsd                                                                         0.11.7-r1               apk     
 libc-utils                                                                     0.7.2-r5                apk     
-libcrypto3                                                                     3.1.0-r4                apk     
-libcurl                                                                        8.1.1-r1                apk     
+libcrypto3                                                                     3.1.1-r1                apk     
+libcurl                                                                        8.1.2-r0                apk     
 libgcc                                                                         12.2.1_git20220924-r10  apk     
 libidn2                                                                        2.3.4-r1                apk     
 libintl                                                                        0.21.1-r7               apk     
@@ -691,7 +691,7 @@ libmime                                                                        5
 libncursesw                                                                    6.4_p20230506-r0        apk     
 libproc2                                                                       4.0.3-r1                apk     
 libqp                                                                          2.0.1                   npm     
-libssl3                                                                        3.1.0-r4                apk     
+libssl3                                                                        3.1.1-r1                apk     
 libstdc++                                                                      12.2.1_git20220924-r10  apk     
 libunistring                                                                   1.1-r1                  apk     
 line-height                                                                    0.3.1                   npm     
@@ -980,7 +980,7 @@ space-separated-tokens                                                         2
 sprintf-js                                                                     1.0.3                   npm     
 sqlite3                                                                        5.1.4                   npm     
 sshpk                                                                          1.17.0                  npm     
-ssl_client                                                                     1.36.0-r9               apk     
+ssl_client                                                                     1.36.1-r0               apk     
 ssri                                                                           8.0.1                   npm     
 ssri                                                                           9.0.1                   npm     
 stable                                                                         0.1.8                   npm     
