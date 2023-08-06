@@ -685,7 +685,7 @@ libattr                                                                        2
 libbase64                                                                      1.2.1                   npm     
 libbsd                                                                         0.11.7-r1               apk     
 libc-utils                                                                     0.7.2-r5                apk     
-libcrypto3                                                                     3.1.1-r3                apk     
+libcrypto3                                                                     3.1.2-r0                apk     
 libcurl                                                                        8.2.1-r0                apk     
 libgcc                                                                         12.2.1_git20220924-r10  apk     
 libidn2                                                                        2.3.4-r1                apk     
@@ -695,7 +695,7 @@ libmime                                                                        5
 libncursesw                                                                    6.4_p20230506-r0        apk     
 libproc2                                                                       4.0.3-r1                apk     
 libqp                                                                          2.0.1                   npm     
-libssl3                                                                        3.1.1-r3                apk     
+libssl3                                                                        3.1.2-r0                apk     
 libstdc++                                                                      12.2.1_git20220924-r10  apk     
 libunistring                                                                   1.1-r1                  apk     
 line-height                                                                    0.3.1                   npm     
