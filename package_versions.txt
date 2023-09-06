@@ -692,7 +692,7 @@ libintl                                                                        0
 libmd                                                                          1.0.4-r2                apk   
 libmime                                                                        5.2.0                   npm   
 libncursesw                                                                    6.4_p20230506-r0        apk   
-libproc2                                                                       4.0.3-r1                apk   
+libproc2                                                                       4.0.4-r0                apk   
 libqp                                                                          2.0.1                   npm   
 libssl3                                                                        3.1.2-r0                apk   
 libstdc++                                                                      12.2.1_git20220924-r10  apk   
@@ -861,7 +861,7 @@ plex-api-headers                                                               1
 postcss                                                                        8.4.14                  npm   
 preview-email                                                                  3.0.7                   npm   
 process-nextick-args                                                           2.0.1                   npm   
-procps-ng                                                                      4.0.3-r1                apk   
+procps-ng                                                                      4.0.4-r0                apk   
 promise                                                                        7.3.1                   npm   
 promise-inflight                                                               1.0.1                   npm   
 promise-retry                                                                  2.0.1                   npm   
