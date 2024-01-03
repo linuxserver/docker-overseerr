@@ -1037,7 +1037,7 @@ type-is                                                                        1
 typedarray                                                                     0.0.6                   npm   
 typeorm                                                                        0.3.12                  npm   
 typescript                                                                     4.9.5                   npm   
-tzdata                                                                         2023c-r1                apk   
+tzdata                                                                         2023d-r0                apk   
 uc.micro                                                                       1.0.6                   npm   
 uid-safe                                                                       2.1.5                   npm   
 underscore                                                                     1.13.6                  npm   
