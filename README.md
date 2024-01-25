@@ -87,7 +87,7 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
     volumes:
-      - /path/to/appdata/config:/config
+      - /path/to/overseerr/config:/config
     ports:
       - 5055:5055
     restart: unless-stopped
@@ -102,7 +102,7 @@ docker run -d \
   -e PGID=1000 \
   -e TZ=Etc/UTC \
   -p 5055:5055 \
-  -v /path/to/appdata/config:/config \
+  -v /path/to/overseerr/config:/config \
   --restart unless-stopped \
   lscr.io/linuxserver/overseerr:latest
 ```
@@ -117,7 +117,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
-| `-v /config` | Contains all relevant configuration files. |
+| `-v /config` | Persistent config files |
 
 ## Environment variables from files (Docker secrets)
 
@@ -280,6 +280,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **23.12.23:** - Rebase to Alpine 3.19.
 * **25.05.23:** - Rebase to Alpine 3.18, deprecate armhf.
 * **18.12.22:** - Rebase main to 3.17.
 * **27.10.22:** - Rebase main to 3.16, migrate to s6v3.
