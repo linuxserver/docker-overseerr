@@ -422,7 +422,7 @@ busboy                                                                         1
 busybox                                                                        1.36.1-r15             apk                    
 busybox-binsh                                                                  1.36.1-r15             apk                    
 bytes                                                                          3.1.2                  npm                    
-c-ares                                                                         1.24.0-r1              apk                    
+c-ares                                                                         1.27.0-r0              apk                    
 ca-certificates                                                                20240226-r0            apk                    
 ca-certificates-bundle                                                         20240226-r0            apk                    
 cacache                                                                        15.3.0                 npm                    
@@ -814,7 +814,7 @@ node-gyp                                                                       8
 node-gyp                                                                       9.3.1                  npm                    
 node-releases                                                                  2.0.8                  npm                    
 node-schedule                                                                  2.1.1                  npm                    
-nodejs                                                                         20.11.1-r0             apk                    
+nodejs                                                                         20.12.1-r0             apk                    
 nodemailer                                                                     6.8.0                  npm   (+2 duplicates)  
 nodemailer                                                                     6.9.1                  npm                    
 nopt                                                                           5.0.0                  npm   (+1 duplicate)   
