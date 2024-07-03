@@ -10,7 +10,8 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 LABEL maintainer="nemchik"
 
 # set environment variables
-ENV HOME="/config"
+ENV HOME="/config" \
+  TMPDIR=/run/overseerr-temp
 
 RUN \
   echo "**** install build packages ****" && \
