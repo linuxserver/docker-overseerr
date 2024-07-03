@@ -36,8 +36,7 @@ param_usage_include_vols: true
 param_volumes:
   - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Persistent config files" }
 
-# optional parameters
-opt_param_usage_include_vols: false
+readonly_supported: true
 
 # application setup block
 app_setup_block_enabled: true

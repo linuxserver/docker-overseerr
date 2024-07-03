@@ -1,6 +1,9 @@
 #!/usr/bin/with-contenv bash
 # shellcheck shell=bash
 
-# permissions
+mkdir -p /run/overseerr-temp
+
+# permissions
 lsiown -R abc:abc \
-    /config
+    /config \
+    /run/overseerr-temp
