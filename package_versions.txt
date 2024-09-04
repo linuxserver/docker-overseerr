@@ -503,7 +503,7 @@ csso                                                                           4
 csstype                                                                        2.6.21                 npm                    
 csstype                                                                        3.1.1                  npm                    
 csurf                                                                          1.11.0                 npm                    
-curl                                                                           8.9.0-r0               apk                    
+curl                                                                           8.9.1-r1               apk                    
 dashdash                                                                       1.14.1                 npm                    
 date-fns                                                                       2.29.3                 npm                    
 dayjs                                                                          1.11.7                 npm                    
@@ -691,7 +691,7 @@ libbase64                                                                      0
 libbase64                                                                      1.2.1                  npm                    
 libbsd                                                                         0.12.2-r0              apk                    
 libcrypto3                                                                     3.3.1-r3               apk                    
-libcurl                                                                        8.9.0-r0               apk                    
+libcurl                                                                        8.9.1-r1               apk                    
 libgcc                                                                         13.2.1_git20240309-r0  apk                    
 libidn2                                                                        2.3.7-r0               apk                    
 libintl                                                                        0.22.5-r0              apk                    
