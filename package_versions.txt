@@ -503,7 +503,7 @@ csso                                                                           4
 csstype                                                                        2.6.21                 npm                    
 csstype                                                                        3.1.1                  npm                    
 csurf                                                                          1.11.0                 npm                    
-curl                                                                           8.9.1-r1               apk                    
+curl                                                                           8.10.0-r0              apk                    
 dashdash                                                                       1.14.1                 npm                    
 date-fns                                                                       2.29.3                 npm                    
 dayjs                                                                          1.11.7                 npm                    
@@ -691,13 +691,13 @@ libbase64                                                                      0
 libbase64                                                                      1.2.1                  npm                    
 libbsd                                                                         0.12.2-r0              apk                    
 libcrypto3                                                                     3.3.2-r0               apk                    
-libcurl                                                                        8.9.1-r1               apk                    
+libcurl                                                                        8.10.0-r0              apk                    
 libgcc                                                                         13.2.1_git20240309-r0  apk                    
 libidn2                                                                        2.3.7-r0               apk                    
 libintl                                                                        0.22.5-r0              apk                    
 libmd                                                                          1.1.0-r0               apk                    
 libmime                                                                        5.2.0                  npm                    
-libncursesw                                                                    6.4_p20240420-r0       apk                    
+libncursesw                                                                    6.4_p20240420-r1       apk                    
 libproc2                                                                       4.0.4-r0               apk                    
 libpsl                                                                         0.21.5-r1              apk                    
 libqp                                                                          2.0.1                  npm                    
@@ -801,7 +801,7 @@ mylib                                                                          0
 mz                                                                             2.7.0                  npm                    
 nanoclone                                                                      0.2.1                  npm                    
 nanoid                                                                         3.3.4                  npm                    
-ncurses-terminfo-base                                                          6.4_p20240420-r0       apk                    
+ncurses-terminfo-base                                                          6.4_p20240420-r1       apk                    
 nearley                                                                        2.20.1                 npm                    
 negotiator                                                                     0.6.3                  npm                    
 netcat-openbsd                                                                 1.226-r0               apk                    
