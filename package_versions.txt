@@ -1323,7 +1323,7 @@ libidn2                                                                        2
 libintl                                                                        0.22.5-r0              apk                    
 libmd                                                                          1.1.0-r0               apk                    
 libmime                                                                        5.2.0                  npm                    
-libncursesw                                                                    6.4_p20240420-r1       apk                    
+libncursesw                                                                    6.4_p20240420-r2       apk                    
 libproc2                                                                       4.0.4-r0               apk                    
 libpsl                                                                         0.21.5-r1              apk                    
 libqp                                                                          2.0.1                  npm                    
@@ -1434,7 +1434,7 @@ nanoclone                                                                      0
 nanoid                                                                         3.3.4                  npm                    
 nanoid                                                                         UNKNOWN                npm                    
 native-url                                                                     UNKNOWN                npm                    
-ncurses-terminfo-base                                                          6.4_p20240420-r1       apk                    
+ncurses-terminfo-base                                                          6.4_p20240420-r2       apk                    
 nearley                                                                        2.20.1                 npm                    
 negotiator                                                                     0.6.3                  npm                    
 neo-async                                                                      UNKNOWN                npm                    
