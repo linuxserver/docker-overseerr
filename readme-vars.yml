@@ -29,6 +29,7 @@ param_usage_include_vols: true
 param_volumes:
   - {vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Persistent config files"}
 readonly_supported: true
+nonroot_supported: true
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
@@ -78,6 +79,7 @@ init_diagram: |
   "overseerr:develop" <- Base Images
 # changelog
 changelogs:
+  - {date: "24.12.24:", desc: "Rebase to Alpine 3.21."}
   - {date: "26.05.24:", desc: "Rebase to Alpine 3.20."}
   - {date: "23.12.23:", desc: "Rebase to Alpine 3.19."}
   - {date: "25.05.23:", desc: "Rebase to Alpine 3.18, deprecate armhf."}
