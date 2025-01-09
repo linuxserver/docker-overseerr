@@ -53,7 +53,8 @@ RUN \
   rm -rf \
     /tmp/* \
     $HOME/.cache \
-    /app/overseerr/.next/cache/*
+    /app/overseerr/.next/cache/* \
+    /run/overseerr-temp
 
 # copy local files
 COPY root/ /
