@@ -1051,7 +1051,7 @@ csso                                                                           4
 csstype                                                                        2.6.21            npm                    
 csstype                                                                        3.1.1             npm                    
 csurf                                                                          1.11.0            npm                    
-curl                                                                           8.11.1-r0         apk                    
+curl                                                                           8.12.0-r0         apk                    
 dashdash                                                                       1.14.1            npm                    
 date-fns                                                                       2.29.3            npm                    
 dayjs                                                                          1.11.7            npm                    
@@ -1315,8 +1315,8 @@ leac                                                                           0
 libattr                                                                        2.5.2-r2          apk                    
 libbase64                                                                      1.2.1             npm                    
 libbsd                                                                         0.12.2-r0         apk                    
-libcrypto3                                                                     3.3.2-r4          apk                    
-libcurl                                                                        8.11.1-r0         apk                    
+libcrypto3                                                                     3.3.2-r5          apk                    
+libcurl                                                                        8.12.0-r0         apk                    
 libgcc                                                                         14.2.0-r4         apk                    
 libidn2                                                                        2.3.7-r0          apk                    
 libintl                                                                        0.22.5-r0         apk                    
@@ -1326,7 +1326,7 @@ libncursesw                                                                    6
 libproc2                                                                       4.0.4-r2          apk                    
 libpsl                                                                         0.21.5-r3         apk                    
 libqp                                                                          2.0.1             npm                    
-libssl3                                                                        3.3.2-r4          apk                    
+libssl3                                                                        3.3.2-r5          apk                    
 libstdc++                                                                      14.2.0-r4         apk                    
 libunistring                                                                   1.2-r0            apk                    
 line-height                                                                    0.3.1             npm                    
@@ -1451,7 +1451,7 @@ node-gyp                                                                       9
 node-html-parser                                                               UNKNOWN           npm                    
 node-releases                                                                  2.0.8             npm                    
 node-schedule                                                                  2.1.1             npm                    
-nodejs                                                                         22.11.0-r1        apk                    
+nodejs                                                                         22.13.1-r0        apk                    
 nodemailer                                                                     6.8.0             npm   (+2 duplicates)  
 nodemailer                                                                     6.9.1             npm                    
 nopt                                                                           5.0.0             npm   (+1 duplicate)   
@@ -1656,7 +1656,7 @@ source-map                                                                     U
 source-map-js                                                                  1.0.2             npm                    
 space-separated-tokens                                                         2.0.2             npm                    
 sprintf-js                                                                     1.0.3             npm                    
-sqlite-libs                                                                    3.47.1-r0         apk                    
+sqlite-libs                                                                    3.48.0-r0         apk                    
 sqlite3                                                                        5.1.4             npm                    
 sshpk                                                                          1.17.0            npm                    
 ssl_client                                                                     1.37.0-r12        apk                    
