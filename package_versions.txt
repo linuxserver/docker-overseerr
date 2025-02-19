@@ -369,14 +369,14 @@ ajv                                                                            6
 alpine-baselayout                                                              3.6.8-r1          apk                    
 alpine-baselayout-data                                                         3.6.8-r1          apk                    
 alpine-keys                                                                    2.5-r0            apk                    
-alpine-release                                                                 3.21.2-r0         apk                    
+alpine-release                                                                 3.21.3-r0         apk                    
 amphtml-validator                                                              UNKNOWN           npm                    
 ansi-colors                                                                    4.1.3             npm                    
 ansi-regex                                                                     5.0.1             npm                    
 ansi-styles                                                                    3.2.1             npm                    
 ansi-styles                                                                    4.3.0             npm                    
 any-promise                                                                    1.3.0             npm                    
-apk-tools                                                                      2.14.6-r2         apk                    
+apk-tools                                                                      2.14.6-r3         apk                    
 app-root-path                                                                  3.1.0             npm                    
 append-field                                                                   1.0.0             npm                    
 aproba                                                                         2.0.0             npm                    
@@ -1051,7 +1051,7 @@ csso                                                                           4
 csstype                                                                        2.6.21            npm                    
 csstype                                                                        3.1.1             npm                    
 csurf                                                                          1.11.0            npm                    
-curl                                                                           8.12.0-r0         apk                    
+curl                                                                           8.12.1-r0         apk                    
 dashdash                                                                       1.14.1            npm                    
 date-fns                                                                       2.29.3            npm                    
 dayjs                                                                          1.11.7            npm                    
@@ -1315,8 +1315,8 @@ leac                                                                           0
 libattr                                                                        2.5.2-r2          apk                    
 libbase64                                                                      1.2.1             npm                    
 libbsd                                                                         0.12.2-r0         apk                    
-libcrypto3                                                                     3.3.2-r5          apk                    
-libcurl                                                                        8.12.0-r0         apk                    
+libcrypto3                                                                     3.3.3-r0          apk                    
+libcurl                                                                        8.12.1-r0         apk                    
 libgcc                                                                         14.2.0-r4         apk                    
 libidn2                                                                        2.3.7-r0          apk                    
 libintl                                                                        0.22.5-r0         apk                    
@@ -1326,7 +1326,7 @@ libncursesw                                                                    6
 libproc2                                                                       4.0.4-r2          apk                    
 libpsl                                                                         0.21.5-r3         apk                    
 libqp                                                                          2.0.1             npm                    
-libssl3                                                                        3.3.2-r5          apk                    
+libssl3                                                                        3.3.3-r0          apk                    
 libstdc++                                                                      14.2.0-r4         apk                    
 libunistring                                                                   1.2-r0            apk                    
 line-height                                                                    0.3.1             npm                    
@@ -1424,8 +1424,8 @@ ms                                                                             2
 ms                                                                             2.1.3             npm                    
 multer                                                                         1.4.5-lts.1       npm                    
 multimatch                                                                     5.0.0             npm                    
-musl                                                                           1.2.5-r8          apk                    
-musl-utils                                                                     1.2.5-r8          apk                    
+musl                                                                           1.2.5-r9          apk                    
+musl-utils                                                                     1.2.5-r9          apk                    
 mustache                                                                       4.2.0             npm                    
 mylib                                                                          0.0.0             npm                    
 mz                                                                             2.7.0             npm                    
@@ -1724,7 +1724,7 @@ type-is                                                                        1
 typedarray                                                                     0.0.6             npm                    
 typeorm                                                                        0.3.12            npm                    
 typescript                                                                     4.9.5             npm                    
-tzdata                                                                         2024b-r1          apk                    
+tzdata                                                                         2025a-r0          apk                    
 ua-parser-js                                                                   UNKNOWN           npm                    
 uc.micro                                                                       1.0.6             npm                    
 uid-safe                                                                       2.1.5             npm                    
