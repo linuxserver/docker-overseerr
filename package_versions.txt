@@ -350,6 +350,7 @@ NAME                                                                           V
 @types/react-transition-group                                                  4.4.5             npm                    
 @types/scheduler                                                               0.16.2            npm                    
 @types/serve-static                                                            1.15.0            npm                    
+@types/ua-parser-js                                                            0.7.36            npm                    
 @types/unist                                                                   2.0.6             npm                    
 @vercel/nft                                                                    UNKNOWN           npm                    
 abbrev                                                                         1.1.1             npm                    
@@ -1725,6 +1726,7 @@ typedarray                                                                     0
 typeorm                                                                        0.3.12            npm                    
 typescript                                                                     4.9.5             npm                    
 tzdata                                                                         2025a-r0          apk                    
+ua-parser-js                                                                   1.0.35            npm                    
 ua-parser-js                                                                   UNKNOWN           npm                    
 uc.micro                                                                       1.0.6             npm                    
 uid-safe                                                                       2.1.5             npm                    
