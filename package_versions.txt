@@ -1725,7 +1725,7 @@ type-is                                                                        1
 typedarray                                                                     0.0.6             npm                    
 typeorm                                                                        0.3.12            npm                    
 typescript                                                                     4.9.5             npm                    
-tzdata                                                                         2025a-r0          apk                    
+tzdata                                                                         2025b-r0          apk                    
 ua-parser-js                                                                   1.0.35            npm                    
 ua-parser-js                                                                   UNKNOWN           npm                    
 uc.micro                                                                       1.0.6             npm                    
