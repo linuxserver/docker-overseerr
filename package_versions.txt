@@ -1657,7 +1657,7 @@ source-map                                                                     U
 source-map-js                                                                  1.0.2             npm                    
 space-separated-tokens                                                         2.0.2             npm                    
 sprintf-js                                                                     1.0.3             npm                    
-sqlite-libs                                                                    3.48.0-r0         apk                    
+sqlite-libs                                                                    3.48.0-r1         apk                    
 sqlite3                                                                        5.1.4             npm                    
 sshpk                                                                          1.17.0            npm                    
 ssl_client                                                                     1.37.0-r12        apk                    
