@@ -1452,7 +1452,7 @@ node-gyp                                                                       9
 node-html-parser                                                               UNKNOWN           npm                    
 node-releases                                                                  2.0.8             npm                    
 node-schedule                                                                  2.1.1             npm                    
-nodejs                                                                         22.13.1-r0        apk                    
+nodejs                                                                         22.15.1-r0        apk                    
 nodemailer                                                                     6.8.0             npm   (+2 duplicates)  
 nodemailer                                                                     6.9.1             npm                    
 nopt                                                                           5.0.0             npm   (+1 duplicate)   
