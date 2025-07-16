@@ -1250,8 +1250,8 @@ i18n-locales                                                                   0
 iconv-lite                                                                     0.4.24            npm                    
 iconv-lite                                                                     0.6.3             npm   (+2 duplicates)  
 icss-utils                                                                     UNKNOWN           npm                    
-icu-data-en                                                                    76.1-r0           apk                    
-icu-libs                                                                       76.1-r0           apk                    
+icu-data-en                                                                    76.1-r1           apk                    
+icu-libs                                                                       76.1-r1           apk                    
 ieee754                                                                        1.2.1             npm                    
 ignore-loader                                                                  UNKNOWN           npm                    
 image-size                                                                     UNKNOWN           npm                    
