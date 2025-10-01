@@ -1317,7 +1317,7 @@ libapk2                                                                        2
 libattr                                                                        2.5.2-r2          apk                    
 libbase64                                                                      1.2.1             npm                    
 libbsd                                                                         0.12.2-r0         apk                    
-libcrypto3                                                                     3.5.2-r0          apk                    
+libcrypto3                                                                     3.5.3-r1          apk                    
 libcurl                                                                        8.14.1-r1         apk                    
 libgcc                                                                         14.2.0-r6         apk                    
 libidn2                                                                        2.3.7-r0          apk                    
@@ -1328,7 +1328,7 @@ libncursesw                                                                    6
 libproc2                                                                       4.0.4-r3          apk                    
 libpsl                                                                         0.21.5-r3         apk                    
 libqp                                                                          2.0.1             npm                    
-libssl3                                                                        3.5.2-r0          apk                    
+libssl3                                                                        3.5.3-r1          apk                    
 libstdc++                                                                      14.2.0-r6         apk                    
 libunistring                                                                   1.3-r0            apk                    
 line-height                                                                    0.3.1             npm                    
