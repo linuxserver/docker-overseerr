@@ -444,7 +444,7 @@ busybox                                                                        1
 busybox-binsh                                                                  1.37.0-r20        apk                    
 bytes                                                                          3.1.2             npm                    
 bytes                                                                          UNKNOWN           npm                    
-c-ares                                                                         1.34.5-r0         apk                    
+c-ares                                                                         1.34.6-r0         apk                    
 ca-certificates                                                                20250911-r0       apk                    
 ca-certificates-bundle                                                         20250911-r0       apk                    
 cacache                                                                        15.3.0            npm                    
@@ -1726,7 +1726,7 @@ type-is                                                                        1
 typedarray                                                                     0.0.6             npm                    
 typeorm                                                                        0.3.12            npm                    
 typescript                                                                     4.9.5             npm                    
-tzdata                                                                         2025b-r0          apk                    
+tzdata                                                                         2025c-r0          apk                    
 ua-parser-js                                                                   1.0.35            npm                    
 ua-parser-js                                                                   UNKNOWN           npm                    
 uc.micro                                                                       1.0.6             npm                    
