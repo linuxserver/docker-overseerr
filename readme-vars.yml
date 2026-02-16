@@ -11,7 +11,7 @@ project_categories: "Media Requesters"
 
 # deprecation information
 project_deprecation_status: true
-project_deprecation_message: "Overseerr is now end of life, we recommend migrating to the official Seerr image: https://github.com/seerr-team/seerr"
+project_deprecation_message: "Overseerr has now merged with Jellyseerr, we recommend migrating to the official Seerr image: https://github.com/seerr-team/seerr"
 
 # supported architectures
 available_architectures:
