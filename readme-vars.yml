@@ -7,11 +7,9 @@ project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/ma
 project_blurb: |
   [{{ project_name|capitalize }}]({{ project_url }}) is a free and open source software application for managing requests for your media library.
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
-
 # deprecation information
 project_deprecation_status: true
 project_deprecation_message: "Overseerr has now merged with Jellyseerr, we recommend migrating to the official Seerr image: https://github.com/seerr-team/seerr"
-
 # supported architectures
 available_architectures:
   - {arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
