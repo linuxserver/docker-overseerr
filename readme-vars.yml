@@ -10,7 +10,7 @@ project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_
 
 # deprecation information
 project_deprecation_status: true
-project_deprecation_message: "Overseerr is now end of life, we recommend migrating to the official Seerr image: https://github.com/seerr-team/seerr"
+project_deprecation_message: "Overseerr has now merged with Jellyseerr, we recommend migrating to the official Seerr image: https://github.com/seerr-team/seerr"
 
 # supported architectures
 available_architectures:
